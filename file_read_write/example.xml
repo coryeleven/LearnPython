@@ -1,0 +1,10 @@
+<breakfast_menu year="2018">
+<food>
+<name>Belgian Waffles</name>
+<price>$6.12</price>
+<description>
+    two of our famous Delgian Waffles with plenty of real maple syrup
+</description>
+<calories>Don't forget the meeting!</calories>
+</food>
+</breakfast_menu>
