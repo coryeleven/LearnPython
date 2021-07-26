@@ -1,0 +1,4 @@
+In Python you can store as much information as you want.
+In Python you can connect pieces of information.
+In Python you can model real-world situations.
+[ ] 列表， 列表是有序集合，访问列表元素，只需访问该元素的位置即可，索引从 0 开始，列表可以修改
