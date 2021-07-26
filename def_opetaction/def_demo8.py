@@ -7,21 +7,21 @@ def say_hello(name,age):
 say_hello("cory",24)
 say_hello(24,"cory")
 
-#通过 给 形参 前面 添加 使参数变成 一个元组 ，所有 传递的参数变成元组的元素
+#通过给形参前面添加*,使参数变成 一个元组 ，所有传递的参数变成元组的元素
 def say_hello1(*args):
     print(args)
 say_hello1()
 say_hello1('1')
 say_hello1(1,2,3,4,5)
 
-#通过 给 形参 前面 添加 使参数变成 一个 字典 ，所有 传递的参数变成 字典 的 键值对
+#通过给形参前面添加使参数变成一个字典,所有传递的参数变成字典的键值对
 def say_hello2(**args):
     print(args)
 say_hello2()
 say_hello2(a = 1)
 say_hello2(a = 1,b = 2,c = 3,d = 4,e = 5)
 
-#Lambda 匿名 函数 ,def 函数是语句块，lambda函数是表达式，def 函数拥有函数名，lambda函数没有
+#Lambda匿名函数 ,def函数是语句块，lambda函数是表达式，def函数拥有函数名，lambda函数没有
 A = lambda a:a+1
 print(A(2))
 
